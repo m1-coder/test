@@ -1,0 +1,8 @@
+torch==2.2.0
+matplotlib==3.9.4
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.1
+torch-geometric==2.4.0
+torchaudio==2.2.0
+torchvision==0.17.0
