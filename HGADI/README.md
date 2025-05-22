@@ -16,6 +16,9 @@ cuda 12.1
 
 ### Datasets
 The experiments in this study utilize the HGBDataset from the torch_geometric.datasets module of PyTorch Geometric (PyG). 
+
+You can download the preprocessed train/validation/test split files from the following link:https://drive.google.com/file/d/1NSxSKVCNhrtjRm9Ku7HyqJpzfZaHaShg/view?usp=sharing
+After downloading, please unzip the file and place the contents in the ./HGADI/ directory.
 ### External Data Access
 Due to GitHub's file size limit, large dataset files required to run our experiments are hosted on Google Drive.
 You can download the necessary data using the following link:
