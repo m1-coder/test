@@ -1,0 +1,1 @@
+from .fairwalk import FairWalk

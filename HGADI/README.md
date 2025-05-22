@@ -1,0 +1,26 @@
+# HGADI
+This repository contains the source code for the paper titled "Inductive Link Prediction in Heterogeneous
+Information Networks via Adversarial Distillation" submitted to ICONIP 2025. The code is provided solely for the purpose of peer review. Please do not distribute, reproduce, or utilize any part of this repository without explicit permission from the authors. The full codebase, including preprocessing scripts, model architectures, and evaluation metrics, will be uploaded to this GitHub repository upon acceptance of the paper. 
+
+### Environment
+pytorch 2.2.0
+
+python 3.8.18
+
+pytorch-geometric 2.4.0
+
+cuda 12.1
+
+### Train HGADI
+`python HIN_Inductive_teacher.py`
+
+### Datasets
+The experiments in this study utilize the HGBDataset from the torch_geometric.datasets module of PyTorch Geometric (PyG). 
+### External Data Access
+Due to GitHub's file size limit, large dataset files required to run our experiments are hosted on Google Drive.
+You can download the necessary data using the following link:
+https://drive.google.com/file/d/1RVfYSaPiEle803nk70LKgDQNbONwtxQS/view?usp=sharing
+After downloading, please place the file under the ./HGADI/ directory.
+
+### Disclaimer
+Note: The findings and methodologies presented are part of ongoing research and have not yet been formally published. The authors reserve all rights to the content until official publication.
