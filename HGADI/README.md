@@ -1,6 +1,6 @@
 # HGADI
 This repository contains the source code for the paper titled "Inductive Link Prediction in Heterogeneous
-Information Networks via Adversarial Distillation" submitted to ICONIP 2025. The code is provided solely for the purpose of peer review. Please do not distribute, reproduce, or utilize any part of this repository without explicit permission from the authors. The full codebase, including preprocessing scripts, model architectures, and evaluation metrics, will be uploaded to this GitHub repository upon acceptance of the paper. 
+Information Networks via Adversarial Distillation". The current version is provided solely for the purpose of peer review. The full codebase, including preprocessing scripts, model architectures, and evaluation metrics, will be uploaded to this GitHub repository after the paper is officially published. 
 
 ### Environment
 pytorch 2.2.0
