@@ -29,3 +29,7 @@ After downloading, please place the file under the ./HGADI/ directory.
 
 ### Disclaimer
 Note: The findings and methodologies presented are part of ongoing research and have not yet been formally published. The authors reserve all rights to the content until official publication.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
