@@ -241,7 +241,7 @@ elif name == "ACM":
 
 sys.path.append(os.path.join(os.getcwd(), 'Fairwalk_master'))
 import dataprocessing
-train_data_path = f'datasplits/ind{name}_train_data.pickle'
+train_data_path = f'datasplits/ind{name}_train_train_data.pickle'
 train_data_fairwalk = dataprocessing.load_train_data_from_pickle(train_data_path)
 graph = dataprocessing.process_train_data_to_graph(train_data_fairwalk, original_to_homogeneous_map)
 node_embeddings = dataprocessing.get_edge_embeddings(graph,args.emb_dim)
