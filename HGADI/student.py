@@ -150,19 +150,13 @@ def stulink_loss(data,x_dict,edge_types):
         src_emb = x_dict[src_type][src]
         dst_emb = x_dict[dst_type][trg]
         scores_out=(src_emb*dst_emb).sum(dim=-1).view(-1)
-        pos_mask = edge_label.bool()
-        src_x_pos = src_emb[pos_mask]
-        trg_x_pos = dst_emb[pos_mask]
-        pos_out = (src_x_pos * trg_x_pos).sum(dim=-1).view(-1)
-        neg_mask = ~edge_label.bool()
-        src_x_neg = src_emb[neg_mask]
-        trg_x_neg = dst_emb[neg_mask]
-        neg_out = (src_x_neg * trg_x_neg).sum(dim=-1).view(-1)
 
         logits.append(scores_out)
         labels.append(edge_label)
     logits = torch.cat(logits, dim=0)
     labels = torch.cat(labels, dim=0)
+    pos_out=logits[labels.bool()]
+    neg_out=logits[~labels.bool()]
     return logits,pos_out,neg_out,labels
 
 def convert_teacher_edges_to_heterodata(
