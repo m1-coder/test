@@ -23,6 +23,8 @@ After downloading, please unzip the file and place the contents in the ./HGADI/ 
 Due to GitHub's file size limit, large dataset files required to run our experiments are hosted on Google Drive.
 You can download the necessary data using the following link:
 https://drive.google.com/file/d/1RVfYSaPiEle803nk70LKgDQNbONwtxQS/view?usp=sharing
+https://drive.google.com/file/d/17-4_Ml1xJJh-MS5DkGTN-zisQJrMGB2u/view?usp=sharing
+https://drive.google.com/file/d/1oDSeyrVtNfMP8eTMH6riPklxaAC9sFAL/view?usp=sharing
 After downloading, please place the file under the ./HGADI/ directory.
 
 ### Disclaimer
